@@ -1,0 +1,62 @@
+/ {
+    // Define the key matrix and keymap for the left half
+    corne_left {
+        compatible = "zmk,keyboard";
+        label = "Left Half";
+
+        matrix {
+            rows = <4>;
+            cols = <5>;
+            row-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>, <&gpio0 3 GPIO_ACTIVE_LOW>, <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio1 10 GPIO_ACTIVE_LOW>;
+            col-gpios = <&gpio0 28 GPIO_ACTIVE_LOW>, <&gpio0 29 GPIO_ACTIVE_LOW>,
+                        <&gpio0 30 GPIO_ACTIVE_LOW>, <&gpio0 31 GPIO_ACTIVE_LOW>, <&gpio1 0 GPIO_ACTIVE_LOW>;
+        };
+
+        keymap {
+            compatible = "zmk,keymap";
+            
+            default_layer {
+                bindings = <&keymap_default_layer_left>;
+            };
+
+            lower_layer {
+                bindings = <&keymap_lower_layer_left>;
+            };
+
+            raise_layer {
+                bindings = <&keymap_raise_layer_left>;
+            };
+        };
+    };
+
+    // Define the key matrix and keymap for the right half
+    corne_right {
+        compatible = "zmk,keyboard";
+        label = "Right Half";
+
+        matrix {
+            rows = <4>;
+            cols = <5>;
+            row-gpios = <&gpio1 5 GPIO_ACTIVE_LOW>, <&gpio1 6 GPIO_ACTIVE_LOW>, <&gpio1 7 GPIO_ACTIVE_LOW>, <&gpio1 11 GPIO_ACTIVE_LOW>;
+            col-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>, <&gpio0 11 GPIO_ACTIVE_LOW>,
+                        <&gpio0 12 GPIO_ACTIVE_LOW>, <&gpio0 13 GPIO_ACTIVE_LOW>, <&gpio0 14 GPIO_ACTIVE_LOW>;
+        };
+
+        keymap {
+            compatible = "zmk,keymap";
+
+            default_layer {
+                bindings = <&keymap_default_layer_right>;
+            };
+
+            lower_layer {
+                bindings = <&keymap_lower_layer_right>;
+            };
+
+            raise_layer {
+                bindings = <&keymap_raise_layer_right>;
+            };
+        };
+    };
+};
+

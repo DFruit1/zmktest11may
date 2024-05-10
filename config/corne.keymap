@@ -1,0 +1,52 @@
+
+{
+    "default_layer": {
+        "left": [
+            "Q", "W", "E", "R", "T",
+            "A", "S", "D", "F", "G",
+            "Z", "X", "C", "V", "B",
+            "LCTL", "mo 1", "SPC", "RET", "ESC",
+            "LGUI", "LALT", "LSHFT"
+        ],
+        "right": [
+            "Y", "U", "I", "O", "P",
+            "H", "J", "K", "L", "SEMI",
+            "N", "M", "COMMA", "DOT", "FSLH",
+            "RALT", "mo 2", "SPC", "RET", "TAB",
+            "RGUI", "RALT", "RSHFT"
+        ]
+    },
+    "lower_layer": {
+        "left": [
+            "1", "2", "3", "4", "5",
+            "EXCL", "AT", "HASH", "DLLR", "PRCNT",
+            "LSHFT", "UNDER", "PLUS", "LBRC", "RBRC",
+            "LGUI", "trans", "trans", "BSPC", "DEL",
+            "LGUI", "LALT", "LSHFT"
+        ],
+        "right": [
+            "6", "7", "8", "9", "0",
+            "MINUS", "EQUAL", "LBKT", "RBKT", "BSLH",
+            "UNDER", "PLUS", "LBRC", "RBRC", "PIPE",
+            "RGUI", "trans", "trans", "BSPC", "GRAVE",
+            "RGUI", "RALT", "RSHFT"
+        ]
+    },
+    "raise_layer": {
+        "left": [
+            "EXCL", "AT", "HASH", "DLLR", "PRCNT",
+            "CARET", "AMPS", "ASTRK", "LPAR", "RPAR",
+            "MINUS", "EQUAL", "LBKT", "RBKT", "BSLH",
+            "LGUI", "trans", "trans", "BSPC", "GRAVE",
+            "LGUI", "LALT", "LSHFT"
+        ],
+        "right": [
+            "CARET", "AMPS", "ASTRK", "LPAR", "RPAR",
+            "EXCL", "AT", "HASH", "DLLR", "PRCNT",
+            "MINUS", "EQUAL", "LBKT", "RBKT", "BSLH",
+            "RGUI", "trans", "trans", "BSPC", "GRAVE",
+            "RGUI", "RALT", "RSHFT"
+        ]
+    }
+}
+
