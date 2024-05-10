@@ -1,0 +1,9 @@
+If SHIELD_CORNE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "corne_right"
+
+config ZMK_SPLIT_ROLE
+    default "right"
+
+endif
