@@ -1,13 +1,25 @@
+
 manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: DFruit1
+      url-base: https://github.com/DFruit1
+
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: master
       import: app/west.yml
+    - name: corne_left
+      remote: DFruit1
+      revision: master
+      path: boards/shields/corne_left
+    - name: corne_right
+      remote: DFruit1
+      revision: master
+      path: boards/shields/corne_right
+
   self:
     path: config
+
