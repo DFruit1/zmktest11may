@@ -1,0 +1,24 @@
+{
+    "default_layer": [
+        "Y", "U", "I", "O", "P",
+        "H", "J", "K", "L", "SEMI",
+        "N", "M", "COMMA", "DOT", "FSLH",
+        "RALT", "mo 2", "SPC", "RET", "TAB",
+        "RGUI", "RALT", "RSHFT"
+    ],
+    "lower_layer": [
+        "6", "7", "8", "9", "0",
+        "MINUS", "EQUAL", "LBKT", "RBKT", "BSLH",
+        "UNDER", "PLUS", "LBRC", "RBRC", "PIPE",
+        "RGUI", "trans", "trans", "BSPC", "GRAVE",
+        "RGUI", "RALT", "RSHFT"
+    ],
+    "raise_layer": [
+        "CARET", "AMPS", "ASTRK", "LPAR", "RPAR",
+        "EXCL", "AT", "HASH", "DLLR", "PRCNT",
+        "MINUS", "EQUAL", "LBKT", "RBKT", "BSLH",
+        "RGUI", "trans", "trans", "BSPC", "GRAVE",
+        "RGUI", "RALT", "RSHFT"
+    ]
+}
+

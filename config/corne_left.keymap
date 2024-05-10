@@ -1,0 +1,24 @@
+{
+    "default_layer": [
+        "Q", "W", "E", "R", "T",
+        "A", "S", "D", "F", "G",
+        "Z", "X", "C", "V", "B",
+        "LCTL", "mo 1", "SPC", "RET", "ESC",
+        "LGUI", "LALT", "LSHFT"
+    ],
+    "lower_layer": [
+        "1", "2", "3", "4", "5",
+        "EXCL", "AT", "HASH", "DLLR", "PRCNT",
+        "LSHFT", "UNDER", "PLUS", "LBRC", "RBRC",
+        "LGUI", "trans", "trans", "BSPC", "DEL",
+        "LGUI", "LALT", "LSHFT"
+    ],
+    "raise_layer": [
+        "EXCL", "AT", "HASH", "DLLR", "PRCNT",
+        "CARET", "AMPS", "ASTRK", "LPAR", "RPAR",
+        "MINUS", "EQUAL", "LBKT", "RBKT", "BSLH",
+        "LGUI", "trans", "trans", "BSPC", "GRAVE",
+        "LGUI", "LALT", "LSHFT"
+    ]
+}
+
